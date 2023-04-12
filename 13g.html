@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>
+    Twitter Design Practice
+  </title>
+  <style>
+    p {
+      font-family: Arial;
+    }
+
+    .Maltipoo-image {
+      height: 50px;
+      width: 50px;
+      border-radius: 25px;
+
+    }
+
+    .title-text {
+      font-size: 16px;
+      color: black;
+      font-weight: bold;
+    }
+
+    .description {
+      font-size: 16px;
+      color: black;
+      width: 400px;
+
+    }
+
+    .profile-title {
+      display: flex;
+      margin-bottom: 10px;
+      height: 20px;
+    }
+
+
+
+    .profile-details {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+    }
+
+    .youtube-link {
+      font-size: 16px;
+      color: gray;
+    }
+
+    .youtube-description {
+      font-size: 16px;
+      color: black;
+    }
+
+    .thumbnail-column {
+      height: 72px;
+      width: 70px;
+      background-color: rgb(204, 204, 204);
+      border-width: 1px;
+      border-top-left-radius: 8px;
+      border-bottom-left-radius: 8px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      padding-left: 10px;
+      padding-top: 15px;
+      padding-bottom: 15;
+      margin-right: -5px;
+    }
+
+
+
+    .link-description {
+      display: flex;
+      flex-direction: column;
+      height: 70px;
+      width: 250px;
+      background-color: rgb(255, 255, 255);
+      border-width: 1px;
+      border-top-right-radius: 8px;
+      border-bottom-right-radius: 8px;
+      border-style: solid;
+      border-color: rgb(204, 204, 204);
+      padding-left: 10px;
+      padding-top: 15px;
+      padding-bottom: 15;
+      margin-left: -5px;
+
+
+    }
+
+    .youtube-details {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: 0px;
+
+    }
+
+    .profile-pic {
+      display: flex;
+      height: 140px;
+      width: 40px;
+    }
+
+    .tweet-column {
+      flex: 1;
+      margin-left: 30px;
+      margin-bottom: 0px;
+
+    }
+
+    .tweet {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="tweet">
+
+
+    <div class="profile-pic">
+      <img class="Maltipoo-image" src="thumbnails/Maltipoo.jpg">
+    </div>
+
+    <div class="tweet-column">
+
+      <div class="profile-title">
+        <div class="title-text">
+          supersimple.dev <span style="color: gray; font-weight: lighter;"> @SuperSimpleDev</span>
+        </div>
+      </div>
+
+      <div class="description">
+        What is backend web development? A complete overview. New video is up!
+      </div>
+
+      <div class="youtube-details">
+
+        <div class="thumbnail-column">
+        </div>
+
+        <div class="link-description">
+          <div class="youtube-link">
+            youtube.com
+          </div>
+
+          <div class="youtube-description">
+            Backend web development - a complete overview (2021)
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

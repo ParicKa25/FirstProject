@@ -1,0 +1,49 @@
+.firstname-bar {
+  width: 100px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 8px;
+  border-width: 1px;
+
+
+}
+
+.lastname-bar {
+  width: 100px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 8px;
+  border-width: 1px;
+
+}
+
+.email-bar {
+  display: block;
+  margin-top: 10px;
+  width: 220px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 8px;
+  border-width: 1px;
+
+}
+
+.signup-button {
+  margin-top: 8px;
+  width: 235px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(34, 145, 236);
+  color: white;
+  font-weight: bold;
+}

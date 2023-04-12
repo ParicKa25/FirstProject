@@ -1,0 +1,53 @@
+body {
+  height: 3000px;
+}
+
+.rightslide-bar {
+  background-color: green;
+  color: white;
+  position: fixed;
+  width: 100px;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+
+}
+
+
+.title {
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 12px;
+
+}
+
+.second-line {
+  font-family: Arial;
+  margin-bottom: 12px;
+
+}
+
+.Modal {
+
+  background-color: white;
+  width: 300px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+
+}
+
+.overlay {
+  background-color: rgb(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

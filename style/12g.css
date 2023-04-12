@@ -1,0 +1,60 @@
+p {
+  font-family: Arial;
+}
+
+.dog-image {
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+}
+
+.dog-name {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.dog-bio {
+  display: flex;
+  font-size: 12px;
+  color: gray;
+  align-items: center;
+  width: 100px;
+
+}
+
+.dog-popularity {
+  font-size: 12px;
+  color: gray;
+}
+
+.follow-button {
+  background-color: rgb(46, 118, 212);
+  border: none;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 4px;
+  color: white;
+}
+
+.Dog-profile {
+  display: flex;
+  width: 200px;
+  align-items: center;
+}
+
+.right-section {
+  margin-right: 20px;
+
+}
+
+.middle-section {
+  margin-right: 100px;
+  line-height: 6px;
+}
+
+.Popular-dogs {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,11 @@
+.survey-text {
+  width: 200px;
+  vertical-align: middle;
+}
+
+.survey-text,
+.yes-button,
+.no-button {
+  display: inline-block;
+  vertical-align: middle;
+}

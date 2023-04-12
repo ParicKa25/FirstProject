@@ -1,0 +1,46 @@
+.tweet-divdesign {
+
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+
+  width: 350px;
+  border-radius: 6px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+
+}
+
+.maltipooround-img {
+  object-fit: cover;
+  object-position: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  vertical-align: middle;
+}
+
+.search-bar {
+  border: none;
+  font-size: 14px;
+  vertical-align: middle;
+  margin-left: 6px;
+  margin-right: 0px;
+}
+
+.tweet-button {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 15px;
+  vertical-align: middle;
+
+  margin-left: 30px;
+
+
+}

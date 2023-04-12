@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> left double side bar </title>
+
+  <style>
+    body {
+      height: 3000px;
+      font-family: Arial;
+
+    }
+
+    .maltipoo {
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      margin-bottom: 20px;
+    }
+
+    .coorgi {
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      margin-bottom: 20px;
+    }
+
+    .shitzu {
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+    }
+
+    .left-bar {
+      display: flex;
+      flex-direction: column;
+      background-color: rgb(48, 47, 47);
+      padding-left: 10px;
+      padding-top: 10px;
+      padding-right: 10px;
+      padding-bottom: 30px;
+
+    }
+
+    .second-bar {
+      display: flex;
+      flex-direction: column;
+      line-height: 10px;
+      margin-left: 20px;
+      background-color: rgb(70, 66, 66);
+      padding-right: 30px;
+
+
+    }
+
+    .left-bars {
+      display: flex;
+      flex-direction: row;
+      background-color: rgb(70, 66, 66);
+      position: fixed;
+      left: 0;
+      top: 0;
+      padding-bottom: 3px;
+
+    }
+
+    .info {
+      font-size: 12px;
+      font-weight: bold;
+      color: white;
+
+    }
+
+    .add-symbol {
+      font-weight: bold;
+      margin-left: 50px;
+      margin-top: 10px;
+      color: rgb(153, 148, 148);
+      ;
+    }
+
+    .info-line {
+      display: flex;
+      flex-direction: row;
+
+    }
+
+    .new-videos {
+      font-size: 12px;
+      color: rgb(153, 148, 148);
+    }
+
+    .updates {
+      font-size: 12px;
+      color: rgb(153, 148, 148);
+      ;
+    }
+
+    .faq {
+      font-size: 12px;
+      color: rgb(153, 148, 148);
+      ;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="left-bars">
+
+
+    <div class="left-bar">
+      <img class="maltipoo" src="thumbnails/Maltipoo.jpg">
+
+      <img class="coorgi" src="thumbnails/coorgi.jpg">
+
+      <img class="shitzu" src="thumbnails/shitzu.jpg">
+    </div>
+
+    <div class="second-bar">
+
+      <div class="info-line">
+        <p class="info">
+          INFO
+        </p>
+
+        <p class="add-symbol">
+          +
+        </p>
+      </div>
+
+      <p class="new-videos">
+        # new-vidoes
+      </p>
+
+      <p class="updates">
+        # updates
+      </p>
+
+      <p class="faq">
+        # faq
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>

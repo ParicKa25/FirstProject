@@ -1,0 +1,30 @@
+p {
+  font-family: Arial;
+}
+
+.email-text {
+  font-size: 12px;
+  font-weight: lighter;
+  margin-bottom: 8px;
+}
+
+.search-bar {
+  width: 290px;
+}
+
+.condition-text {
+  font-size: 12px;
+}
+
+.joining-button {
+  background-color: rgb(59, 59, 224);
+  color: white;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  border-radius: 40px;
+
+
+}

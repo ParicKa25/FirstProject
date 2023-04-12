@@ -1,0 +1,22 @@
+p {
+  font-family: Arial;
+}
+
+.business-text {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.Apple-text {
+  font-size: 12px;
+  padding-left: 40px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.More-design {
+  font-size: 12px;
+  padding-left: 90px;
+  color: rgb(16, 79, 240);
+}

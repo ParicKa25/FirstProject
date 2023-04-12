@@ -1,0 +1,29 @@
+p {
+  font-family: Arial;
+}
+
+.price-text {
+  font-size: 40px;
+  margin-bottom: 8px;
+}
+
+.usd-text {
+  font-size: 17px;
+  color: gray;
+}
+
+.second-text {
+  color: rgb(23, 189, 23);
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.after-text {
+  color: gray;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.redcolor-text {
+  color: red;
+}

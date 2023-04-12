@@ -1,0 +1,61 @@
+.p {
+  font-family: Arial;
+}
+
+.pickup-bar,
+.destination-bar {
+  display: block;
+
+}
+
+.request-text {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.pickup-bar {
+  background-color: rgb(241, 234, 234);
+  margin-bottom: 8px;
+  border: none;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 250px;
+  font-size: 12px;
+}
+
+.destination-bar {
+  background-color: rgb(241, 234, 234);
+  margin-bottom: 8px;
+  border: none;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 250px;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.request-button {
+  background-color: black;
+  color: white;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 12px;
+  border: none;
+}
+
+.schedulelater-button {
+  background-color: rgb(241, 234, 234);
+
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 12px;
+  border: none;
+}

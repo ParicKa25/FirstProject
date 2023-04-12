@@ -1,0 +1,56 @@
+a {
+  color: rgb(0, 113, 133);
+  transition: color 0.15s;
+}
+
+a:hover {
+  color: rgba(255, 166, 0, 0.817);
+}
+
+.Nikeshoe-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.price-text {
+  color: rgb(0, 118, 0);
+}
+
+.addToCart-button {
+  background-color: rgb(255, 216, 20);
+  border: none;
+  height: 32px;
+  width: 120px;
+  margin-right: 4px;
+  border-radius: 14px;
+  transition: background-color 0.15s,
+    opacity 0.15s;
+}
+
+.addToCart-button:hover {
+  background-color: rgb(181, 155, 23);
+}
+
+.addToCart-button:active {
+  opacity: 0.5;
+}
+
+.buyNow-button {
+  background-color: rgb(255, 164, 28);
+  border: none;
+  height: 32px;
+  width: 120px;
+  border-radius: 14px;
+  margin-left: 2px;
+  transition: background-color 0.15s,
+    opacity 0.15s;
+
+}
+
+.buyNow-button:hover {
+  background-color: rgb(187, 120, 20);
+}
+
+.buyNow-button:active {
+  opacity: 0.5;
+}

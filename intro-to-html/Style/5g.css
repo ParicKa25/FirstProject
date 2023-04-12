@@ -1,0 +1,29 @@
+p {
+  font-family: Arial;
+
+}
+
+.url-text {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.time-text {
+  color: gray;
+  font-weight: lighter;
+}
+
+.description-text {
+  width: 560px;
+  margin-bottom: 14px;
+  margin-top: 0;
+
+}
+
+.link-text {
+  margin-top: 0;
+}
+
+.chp-link {
+  color: rgb(94, 94, 238);
+}
